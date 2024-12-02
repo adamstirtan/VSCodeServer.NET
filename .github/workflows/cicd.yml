@@ -40,5 +40,5 @@ jobs:
           push: true
           build-args: CODE_SERVER_VERSION=${{ env.ModuleVersion }}
           tags: |
-            whyvra/code-server-dotnet:latest
-            whyvra/code-server-dotnet:${{ env.ModuleVersion }}
+            adamstirtan/code-server-dotnet:latest
+            adamstirtan/code-server-dotnet:${{ env.ModuleVersion }}
